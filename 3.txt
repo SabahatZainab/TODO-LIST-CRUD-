@@ -1,0 +1,11 @@
+Assignment#3
+	TODO LIST (CRUD)  (GET, POST, PUT, PATCH, DELETE) - API'S
+	Data Structure
+	let db = {
+    	todos: [{
+    	id: 0,
+    	name: 'TODO LIST NAME', 
+    	list: ['item 1', 'item 2']
+    	delete: false
+    		}]
+		}

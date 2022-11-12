@@ -1,0 +1,86 @@
+// const express = require('express'); // require package
+// const app = express() // express.js minimal setup/container
+
+// //DB Object 
+// // In Database we have a data (todos)
+// let db = {
+//   todos:[{
+//     id: 0,
+//     name: 'TODO LIST NAME',
+//     List: ['item1','item2'],
+//     delete: false
+//   }]
+// }
+
+// // GET API - Send response to browser/frontend (get)
+// app.get('/', function (req, res) {
+//   res.status(200).json({
+//     success: true,
+//     todos: db.todos
+//   })
+// })
+
+// // POST API - Send data from frontend to backend (create) (new data or field updated send to frontend from backend)
+// app.post('/', (req,res) => {
+//   db.todos[1]= {
+//     id: 1,
+//     name : 'TODOS App',
+//     List: ['I1','I2','I3'],
+//     delete: false
+
+//   }
+//   res.status(200).json({
+//     success:true,
+//     message: 'Data Added',
+//     todos: db.todos
+//   })
+// })
+
+// // PUT API - Send data from frontend to backend (update - whole data)
+// app.put('/', (req,res) => {
+//   db.todos[0] = {
+//     id: 2,
+//     name : 'TODOS App',
+//     List: ['item1','item2'],
+//     delete: false
+//   }
+//   res.status(200).json({
+//     success:true,
+//     message: 'Successfully Updated',
+//     todos: db.todos
+//   })
+// })
+
+// // PATCH API - Send data from frontend to backend (update - only few fields)
+// app.patch('/', (req,res) => {
+//   db.todos[0].name = 'TODOS LIST APP';
+//   res.status(200).json({
+//     success:true,
+//     message: 'List Name Updated (TODOS LIST APP)',
+//     todos: db.todos
+//   })
+// })
+
+// // DELETE API - Send data from frontend to backend (delete - whole data)
+// app.delete('/', (req,res) => {
+//   db.todos[0].delete = 'true';
+//   res.status(200).json({
+//     success: true,
+//     message: 'User deleted'
+//   })
+// })
+
+
+// app.listen(3000, (err) =>{
+//   if(err) console.log(err);
+//   else console.log("Server is Running on PORT 3000");
+// }); 
+
+
+// //API - Application Programming Interface
+// //API (GET, POST, PATCH, PUT , DELETE)
+
+// //semicolon is optional
+
+// //GET API - Send response to browser/frontend
+
